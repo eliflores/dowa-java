@@ -1,0 +1,97 @@
+items:
+  - item:
+      name: Overview
+      id: overview
+      items:
+        - item:
+            name: Object Oriented Programming (OOP) Concepts
+            id: overview-oop
+        - item:
+            name: Java Language
+            id: overview-java-lang
+        - item:
+            name: UML Diagrams
+            id: overview-uml
+
+  - item:
+      name: Object Oriented Programming (OOP) Concepts
+      id: overview-oop
+      items:
+        - item:
+            name: Introduction
+            id: oop-intro
+        - item:
+            name: Inheritance
+            id: oop-inheritance
+        - item:
+            name: Polymorphism
+            id: oop-polymorphism
+        - item:
+            name: Encapsulation
+            id: oop-encapsulation
+
+  - item:
+      name: Java Language
+      id: java-lang
+      items:
+        - item:
+            name: Introduction
+            id: java-lang-intro
+        - item:
+            name: Data Types
+            id: java-lang-data
+        - item:
+            name: Variables
+            id: java-lang-variables
+        - item:
+            name: Operators
+            id: java-lang-operators
+        - item:
+            name: Control Statements
+            id: java-lang-control
+        - item:
+            name: Abstract Classes
+            id: java-lang-abstract
+        - item:
+            name: Interfaces
+            id: java-lang-interfaces
+        - item:
+            name: Exception Handling
+            id: java-lang-exceptions
+        - item:
+            name: Collections
+            id: java-lang-collections
+        - item:
+            name: Input
+            id: java-lang-input
+        - item:
+            name: Output
+            id: java-lang-output
+        - item:
+            name: Serialization
+            id: java-lang-serialization
+        - item:
+            name: Serialization
+            id: Concurrent Programming (Threads)
+  - item:
+      name: UML Diagrams
+      id: uml
+      items:
+        - item:
+            name: Introduction
+            id: uml-intro
+        - item:
+            name: Class
+            id: uml-class
+        - item:
+            name: Object
+            id: uml-object
+        - item:
+            name: Use Case
+            id: uml-use-case
+        - item:
+            name: Sequence
+            id: uml-sequence
+        - item:
+            name: Collaboration
+            id: uml-collaboration
