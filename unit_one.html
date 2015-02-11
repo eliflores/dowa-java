@@ -8,6 +8,7 @@ layout: unit1
 
             {% for items in site.data.unit_one.index.items %}
                 <div class="bs-docs-section">
+                    {% capture folder %}unit_one{% endcapture %}
                     {% capture items %}{{ items }}{% endcapture %}
                     {% include print_item.html %}
                 </div>    
