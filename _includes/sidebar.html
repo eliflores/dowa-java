@@ -1,14 +1,21 @@
 <div class="col-md-3" role="complementary">
-                <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
-                    <ul class="nav bs-docs-sidenav">
+    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+        <ul class="nav bs-docs-sidenav">
+            {% for items in site.data.unit_one.index.items %}
+            <li class="">
+                <a href="#{{items.item.id}}">{{items.item.name}}</a>
+      
+                <ul class="nav">
 
-                        <li class="">
-                            <a href="#overview">Overview</a>
-                            <ul class="nav">
-                                <li class=""><a href="#overview-unit1">Unit1</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                     {% for nested_item in items.item.items %}
 
-                </nav>
-            </div>
+                    <li class="">
+                        <a href="#{{nested_item.item.id}}">{{nested_item.item.name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
