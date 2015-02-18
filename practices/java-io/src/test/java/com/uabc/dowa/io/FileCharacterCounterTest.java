@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class FileCharacterCounterTest {
+public class FileCharacterCounterTest  {
     @Test
     public void testCountNumberOfCharacterInFile() throws Exception {
         assertEquals(0, FileCharacterCounter.countNumberOfOccurrencesInFile('x'));
