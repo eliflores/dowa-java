@@ -35,19 +35,6 @@ public class FileUtils {
         return count;
     }
 
-    //Method not being used yet.
-    @SuppressWarnings("UnusedDeclaration")
-    private static void writeToFile(String message) {
-        URL messagesFile = FileUtils.class.getResource(FILE_TO_WRITE_NAME);
-        try (FileOutputStream out = new FileOutputStream(messagesFile.getPath(), true);
-             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(out, CHAR_SET_NAME))) {
-            writer.write(message);
-            writer.newLine();
-        } catch (IOException e) {
-            System.err.println(e);
-        }
-    }
-
     private static List<String> getLinesFromFile(String fileToRead) {
         List<String> messages = new ArrayList<>();
         try (InputStream in = FileUtils.class.getResourceAsStream(fileToRead);
