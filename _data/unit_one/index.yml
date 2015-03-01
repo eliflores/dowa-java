@@ -2,7 +2,6 @@ items:
   - item:
       name: Overview
       id: overview
-      text: We will understand concepts
       items:
         - item:
             name: Object Oriented Programming (OOP) Concepts

@@ -1,0 +1,7 @@
+  {% for items in site.data.index.items %}
+                <div class="bs-docs-section">
+                    {% capture folder %}.{% endcapture %}
+                    {% capture items %}{{ items }}{% endcapture %}
+                    {% include print_item.html %}
+                </div>    
+ {% endfor %}

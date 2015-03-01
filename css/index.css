@@ -1427,3 +1427,8 @@ h1[id] {
 .css .o+.nt {
     color: #999
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
