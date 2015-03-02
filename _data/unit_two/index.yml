@@ -1,10 +1,10 @@
 items: 
   - item:
       name: Overview
-      id: overview
+      id: overview-ood
   - item:
       name: Object Oriented Design (OOD)
-      id: overview-ood
+      id: ood-principles
   - item:
       name: Design Patterns
       id: design-patterns
