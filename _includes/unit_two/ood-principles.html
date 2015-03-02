@@ -15,11 +15,11 @@ A <b>design principle</b> is a basic tool or technique that can be applied to de
 
  <h3>OO Principles</h3>
  <ul>
- 	<li><b>S</b>ingle Responsability Principle</li>
- 	<li><b>O</b>pen-Closed Principle</li>
- 	<li><b>L</b>iskov's Substitution Principle</li>
- 	<li><b>I</b>nterface Segregation Principle</li>
- 	<li><b>D</b>on't repeat yourself</li>
+ 	<li><b>S</b> ingle Responsability Principle</li>
+ 	<li><b>O</b> pen-Closed Principle</li>
+ 	<li><b>L</b> iskov's Substitution Principle</li>
+ 	<li><b>I</b> nterface Segregation Principle</li>
+ 	<li><b>D</b> on't repeat yourself</li>
  </ul>
 
  <h4>Single Reponsability Principle</h4>
@@ -28,11 +28,22 @@ Every object in your system should have single responsability and all the object
 
  <h4>Open-Closed Principle</h4>
 Classes should be <i>open</i> for extension, and <i>closed</i> for modification.
-This principle is all about <i>allowing change</i>, but doing it <i>without requiring you to modify exisiting code</i>.
+This OCP is all about <i>allowing change</i>, but doing it <i>without requiring you to modify exisiting code</i>.
 You <b>close</b> clases by not allowying anyone to touch your working code.
 You <b>open</b> classes by allowing them to be subclassed, extended and reused (your classes are open for extension).
 
  <h4>Liskov's Substitution Principle</h4>
+Subtypes must be substituable for their base types.
+The LSP is all about <u>well designed</u> inheritance. When you inherit from a base class, you must be able to <u>subtitute your subclass</u> for that base class without things going terribly <u>wrong</u>. Otherwise, you've used inheritance incorrectly!
+
+<h4>Interface Segregation Principle</h4>
+Clients should not be forced to implement interfaces they do not use.
+
+ISP is about business logic to clients communication.
+
+ISP teaches us to respect our clients more than we thought necessary. Respecting their needs will make our code better and our lives as programmers easier.
+
+Instead of one big interface many small interfaces are preferred based on groups of methods, each one serving one submodule. It helps us have a flexible design.
 
  <h4>Don't repeat yourself</h4>
 Avoid duplicate code by abstracting out things that are common and placing those things in a single location.
