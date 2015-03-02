@@ -1432,3 +1432,8 @@ h1[id] {
     bottom: 0;
     width: 100%;
 }
+
+/*custom styles */
+.spacer {
+    margin-top: 40px;
+}
