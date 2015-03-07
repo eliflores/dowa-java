@@ -1433,6 +1433,11 @@ h1[id] {
     width: 100%;
 }
 
+/*custom styles */
+.spacer {
+    margin-top: 40px;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -1445,7 +1450,7 @@ table#t01 tr:nth-child(even) {
     background-color: #eee;
 }
 table#t01 tr:nth-child(odd) {
-   background-color:#fff;
+    background-color:#fff;
 }
 table#t01 th    {
     background-color: black;
