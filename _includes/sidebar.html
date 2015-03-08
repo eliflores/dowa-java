@@ -1,26 +1,41 @@
 <div class="col-md-3" role="complementary">
     <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
-        <ul>
-            <li>Unit one
-                <ul class="nav bs-docs-sidenav">
+        <ul class="nav bs-docs-sidenav">
+            <li class="">
+                <a href="unit_one.html">Unit One</a>
+                <ul class="nav">
                     {% for items in site.data.unit_one.index.items %}
                     <li class="">
                         <a href="unit_one.html#{{items.item.id}}">{{items.item.name}}</a>
+                        <ul class="nav">
+                             {% for nested_item in items.item.items %}
+                                <li class="">
+                                    <a href="#{{nested_item.item.id}}">{{nested_item.item.name}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </li>
                     {% endfor %}
                 </ul>
             </li>
-            <li>Unit two
-                <ul class="nav bs-docs-sidenav">
+            <li class=""><a href="unit_two.html">Unit Two</a>
+                <ul class="nav">
                     {% for items in site.data.unit_two.index.items %}
                     <li class="">
                         <a href="unit_two.html#{{items.item.id}}">{{items.item.name}}</a>
+                        <ul class="nav">
+                             {% for nested_item in items.item.items %}
+                                <li class="">
+                                    <a href="#{{nested_item.item.id}}">{{nested_item.item.name}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </li>
                     {% endfor %}
                 </ul>
             </li>
-            <li>Miscellaneous
-                <ul class="nav bs-docs-sidenav">
+            <li><a href="about.html">Miscellaneous</a>
+                <ul class="nav">
                     <li class="">
                         <a href="about.html">About</a>
                     </li>
