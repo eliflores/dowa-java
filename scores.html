@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container bs-docs-container">
+
+    <div class="row">
+        <div class="col-md-9" role="main">
+
+            {% for items in site.data.scores.index.items %}
+            <div class="bs-docs-section">
+                {% capture folder %}scores{% endcapture %}
+                {% capture items %}{{ items }}{% endcapture %}
+                {% include print_item.html %}
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</div>

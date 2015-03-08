@@ -1,0 +1,30 @@
+Credits were a standardized form of currency in use throughout the Galactic Republic and later the Galactic Empire.
+
+From time to time we will hava little contests / challenges in groups of 1, 2 or 3 students. Each team will earn <i>Republic Credits</i> as follows:
+<ul>
+	<li>2 credits: if team answers / finishes an exercise <b>first</b>.</li>
+	<li>1 credit: if team answers / finishes an exercise.</li>
+	<li>Java Jeopardy credits depend on the answered question.</li>
+</ul>
+
+This means that the team that does <i>not</i> answer / finish an exercise will <i>not</i> earn any credits.
+
+Creds can be exchanged by different items only available in the DoWA Java Territories of the Galactic Republic :-)
+
+May the force be with you!
+
+<h2>Participants & Creds</h2>
+<table>
+    {% for scores in site.data.scores.points %}
+    <tr>
+        <td>{{scores.name}}</td>
+        <td>{{scores.ev1}}</td>
+        <td>{{scores.ev2}}</td>
+        <td>{{scores.ev3}}</td>
+        <td>{{scores.ev4}}</td>
+        <td>{{scores.ev5}}</td>
+        <td>{{scores.ev6}}</td>
+    </tr>
+    {% endfor %}
+</table>
+

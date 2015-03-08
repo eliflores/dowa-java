@@ -1,2 +1,3 @@
 baseurl: /dowa-java
 permalink: /:year/:month/:title
+encoding: utf-8
