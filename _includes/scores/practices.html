@@ -1,0 +1,16 @@
+<table>
+    {% for practice in site.data.scores.practices %}
+    <tr>
+        <td>
+            {% if practice.name != 'Name' %}
+            <a href="https://github.com/{{ practice.github }}" target="_blank">{{practice.name}}</a>
+            {% else %}
+            {{practice.name}}
+            {% endif %}
+        </td>
+        <td>{{practice.ev1}}</td>
+        <td>{{practice.ev2}}</td>
+    </tr>
+    {% endfor %}
+</table>
+

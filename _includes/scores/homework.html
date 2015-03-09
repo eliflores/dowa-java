@@ -1,0 +1,16 @@
+<table>
+    {% for homework in site.data.scores.homework %}
+    <tr>
+        <td>
+            {% if homework.name != 'Name' %}
+            <a href="https://github.com/{{ homework.github }}" target="_blank">{{homework.name}}</a>
+            {% else %}
+            {{homework.name}}
+            {% endif %}
+        </td>
+        <td>{{homework.ev1}}</td>
+        <td>{{homework.ev2}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
