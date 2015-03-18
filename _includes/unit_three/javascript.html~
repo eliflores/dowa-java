@@ -1,5 +1,3 @@
-<h4>Reference</h4>
-
 JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.
 
 <br/>
@@ -9,6 +7,8 @@ JavaScript® is the Netscape-developed object scripting language used in million
 <br/>
 
 JavaScript is not to be confused with the Java programming language. Java is a trademark or registered trademark of Oracle in the U.S. and other countries.
+
+<h4>Reference</h4>
 
 <ul>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
