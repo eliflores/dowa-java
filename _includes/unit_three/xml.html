@@ -1,0 +1,46 @@
+<p>XML (Extensible Markup Language) is a markup language for documents containing structured information.</p>
+
+<p>Structured information contains both content (words, pictures, etc.) and some indication of what role that content plays (for example, content in a section heading has a different meaning from content in a footnote, which means something different than content in a figure caption or content in a database table, etc.). Almost all documents have some structure.</p>
+
+<p>A markup language is a mechanism to identify structures in a document. The XML specification, derived from SGML (ISO 8879), defines a standard way to add markup to documents. It was originally designed to meet the challenges of large-scale electronic publishing.</p>
+
+<h2>XML APIs</h2>
+
+<h3>SAX</h3>
+<p>SAX is the <i>Simple API for XML</i>, SAX (Simple API for XML) is an Application Program Interface (API) that allows a programmer to interpret a Web file that uses the Extensible Markup Language (XML) - that is, a Web file that describes a collection of data. SAX is an alternative to using the Document Object Model (DOM) to interpret the XML file. As its name suggests, it's a simpler interface than DOM and is appropriate where many or very large files are to be processed, but it contains fewer capabilities for manipulating the data content.</p>
+
+<p>SAX was originally a Java-only API and it was the first widely adopted API for XML in Java, and is a “de facto” standard. The current version is SAX 2.0.1, and there are versions for several programming language environments other than Java.</p>
+
+<h3>DOM</h3>
+<p>The Document Object Model (DOM) is a programming interface for HTML, XML and SVG documents. It provides a structured representation of the document (a tree) and it defines a way that the structure can be accessed from programs so that they can change the document structure, style and content. The DOM provides a representation of the document as a structured group of nodes and objects that have properties and methods.</p>
+
+The XML DOM is:
+
+<ul>
+<li>A standard object model for XML</li>
+<li>A standard programming interface for XML</li>
+<li>Platform- and language-independent</li>
+<li>A <a href="http://www.w3.org/">W3C</a> standard</li>
+<li>The XML DOM defines the objects and properties of all XML elements, and the methods (interface) to access them.</li>
+</ul>
+
+<i>The XML DOM is a standard for how to get, change, add, or delete XML elements.</i>
+
+<h2>Java API for XML Processing (JAXP)</h2>
+<p>The Java API for XML Processing (JAXP) is for processing XML data using applications written in the Java programming language. JAXP leverages the parser standards Simple API for XML Parsing (SAX) and Document Object Model (DOM) so that you can choose to parse your data as a stream of events or to build an object representation of it. JAXP also supports the Extensible Stylesheet Language Transformations (XSLT) standard, giving you control over the presentation of the data and enabling you to convert the data to other XML documents or to other formats, such as HTML. JAXP also provides namespace support, allowing you to work with DTDs that might otherwise have naming conflicts. Finally, as of version 1.4, JAXP implements the Streaming API for XML (StAX) standard.</p>
+
+<p>Designed to be flexible, JAXP allows you to use any XML-compliant parser from within your application. It does this with what is called a pluggability layer, which lets you plug in an implementation of the SAX or DOM API. The pluggability layer also allows you to plug in an XSL processor, letting you control how your XML data is displayed.</p>
+
+<a href="http://docs.oracle.com/javase/tutorial/jaxp">Read more...</a>
+
+
+<h4>Reference</h4>
+
+<ul>
+	<li><a href="http://www.xml.com/pub/a/98/10/guide0.html">XML</a></li>
+	<li><a href="http://sax.sourceforge.net/">SAX</a></li>
+	<li><a href="http://searchsoa.techtarget.com/definition/SAX-Simple-API-for-XML">SAX API</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a></li>
+    <li><a href="http://www.w3schools.com/dom/">XML DOM</a></li>
+	<li><a href="http://docs.oracle.com/javase/tutorial/jaxp">Java API for XML Processing (JAXP)</a></li>
+</ul>

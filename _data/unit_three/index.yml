@@ -8,5 +8,9 @@ items:
   - item:
       name: JavaScript
       id: javascript
+  - item:
+      name: XML
+      id: xml
+
 
 
