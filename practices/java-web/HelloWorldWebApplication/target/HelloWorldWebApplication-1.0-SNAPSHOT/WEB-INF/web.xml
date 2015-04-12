@@ -11,13 +11,4 @@
         <servlet-name>myServlet</servlet-name>
         <url-pattern>/hello-servlet</url-pattern>
     </servlet-mapping>
-     <servlet>
-        <servlet-name>theTutorials</servlet-name>
-        <servlet-class>com.dowa.java.web.TutorialsServlet</servlet-class>
-        <load-on-startup>2</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>theTutorials</servlet-name>
-        <url-pattern>/tutorials-servlet</url-pattern>
-    </servlet-mapping>
 </web-app>
