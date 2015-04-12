@@ -8,7 +8,7 @@ public interface NumberService {
      * @param arr
      * @return
      */
-    public int findSingleMissingNumber(int arr[]);
+    public  int findSingleMissingNumber(int arr[]);
 
     /**
      * We have a bag containing numbers 1, 2, 3, …, 100. Each number appears exactly once, so there are 100 numbers.
@@ -17,7 +17,7 @@ public interface NumberService {
      * @param arr
      * @return
      */
-    public int findToMissingNumbers(int arr[]);
+    public int[] findTwoMissingNumbers(int arr[]);
 
     /**
      * We have a bag containing numbers 1, 2, 3, …, 100. Each number appears exactly once, so there are 100 numbers.

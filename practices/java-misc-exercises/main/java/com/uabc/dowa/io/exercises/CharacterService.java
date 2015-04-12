@@ -16,7 +16,7 @@ public interface CharacterService {
      *
      * @param arr - array to be reversed
      */
-    public void reverse(char arr[]);
+    public void reverse(char[] arr);
 
 
     /**
@@ -24,5 +24,5 @@ public interface CharacterService {
      *
      * @param arr - array which words are to be reversed
      */
-    public void reverseWords(char arr[]);
+    public void reverseWords(char[] arr);
 }
