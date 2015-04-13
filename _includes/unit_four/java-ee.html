@@ -1,0 +1,62 @@
+ "Enterprise applications" is a shorthand name for large-scale, multi-tiered, scalable, reliable, and secure network applications. These applications are designed to solve the problems encountered by large enterprises. The benefits of an enterprise application are helpful, even essential, for individual developers and small organizations in an increasingly networked world.
+
+<h3>Tiered Applications</h3>
+
+<p>In a multi-tiered application, the functionality of the application is separated into isolated functional areas, called tiers. Typically, multi-tiered applications have a client tier, a middle tier, and a data tier (often called the enterprise information systems tier).<p/>
+
+<p>The client tier consists of a client program that makes requests to the middle tier.</p>
+<p>The middle tier is divided into a web tier and a business tier, which handle client requests and process application data, storing it in a permanent datastore in the data tier.</p>
+
+<p>Java EE application development concentrates on the middle tier to make enterprise application management easier, more robust, and more secure.</p>
+
+<h4>The Client Tier</h4>
+
+<p>Consists of application clients that access a Java EE server. The clients make requests to the server. The server processes the requests and returns a response back to the client. Many different types of applications can be Java EE clients, and they are not always, or even often Java applications. Clients can be a web browser, a standalone application, or other servers.</p>
+
+<h4>The Web Tier</h4>
+<p>Consists of components that handle the interaction between clients and the business tier. 
+
+Its primary tasks are the following:
+
+<ul>
+	<li>Dynamically generate content in various formats for the client</li>
+	<li>Collect input from users of the client interface and return appropriate results from the components in the business tier</li>
+	<li>Control the flow of screens or pages on the client</li>
+	<li>Maintain the state of data for a user's session</li>
+	<li>Perform some basic logic and hold some data temporarily in managed beans</li>
+</ul>
+
+See <a href="https://docs.oracle.com/javaee/7/firstcup/java-ee001.htm#GCTOG">Web Tier Java EE Technologies</a>
+
+<h4>The Business Tier</h4>
+<p>Consists of components that provide the business logic for an application. Business logic is code that provides functionality to a particular business domain, like the financial industry, or an e-commerce site. In a properly designed enterprise application, the core functionality exists in the business tier components.</p>
+
+<p>The following Java EE technologies are among those that are used in the business tier in Java EE applications:
+
+	<ul>
+		<li>Enterprise JavaBeans (enterprise bean) components</li>
+		<li>JAX-RS RESTful web services</li>
+		<li>Java Persistence API entities</li>
+	</ul>
+</p>
+
+<h4>The Enterprise Information Systems Tier</h4>
+
+<p>The enterprise information systems (EIS) tier consists of database servers, enterprise resource planning systems, and other legacy data sources, like mainframes. These resources typically are located on a separate machine from the Java EE server, and are accessed by components on the business tier.</p>
+
+<p>The following Java EE technologies are used to access the EIS tier in Java EE applications:
+
+	<ul>
+		<li>The Java Database Connectivity API (JDBC)</li>
+		<li>The Java Persistence API</li>
+		<li>The Java EE Connector Architecture</li>
+		<li>The Java Transaction API (JTA)</li>
+	</ul>
+
+</p>
+
+<h4>Reference</h4>
+
+<ul>
+	<li><a href="https://docs.oracle.com/javaee/7/firstcup/java-ee001.htm">Java EE Overview</a></li>
+</ul>
