@@ -51,6 +51,22 @@
                     {% endfor %}
                 </ul>
             </li>
+            <li class=""><a href="unit_four.html">Unit Four</a>
+                <ul class="nav">
+                    {% for items in site.data.unit_four.index.items %}
+                    <li class="">
+                        <a href="unit_four.html#{{items.item.id}}">{{items.item.name}}</a>
+                        <ul class="nav">
+                             {% for nested_item in items.item.items %}
+                                <li class="">
+                                    <a href="#{{nested_item.item.id}}">{{nested_item.item.name}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
             <li class=""><a href="scores.html">Scores</a>
                 <ul class="nav">
                     {% for items in site.data.scores.index.items %}
