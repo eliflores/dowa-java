@@ -1,5 +1,15 @@
 _cache
 _site
 .DS_Store
+<<<<<<< HEAD
 .idea/*
 *.iml
+=======
+*.idea/*
+*.iml
+*.ipr
+*.iws
+*.ids
+*.class
+*out/*
+>>>>>>> upstream/master
