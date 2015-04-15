@@ -8,3 +8,6 @@ items:
   - item:
       name: Design Patterns
       id: design-patterns
+  - item:
+      name: AntiPatterns
+      id: anti-patterns
