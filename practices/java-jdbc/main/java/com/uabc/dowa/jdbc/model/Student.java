@@ -1,8 +1,5 @@
 package com.uabc.dowa.jdbc.model;
 
-/**
- * Created by ferzerkerx on 4/14/15.
- */
 public class Student {
     private int _id;
     private String _firstName;
