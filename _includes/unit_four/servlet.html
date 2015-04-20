@@ -1,0 +1,14 @@
+<p>
+As soon as the web began to be used for delivering services, service providers recognized the need for dynamic content. Applets, one of the earliest attempts toward this goal, focused on using the client platform to deliver dynamic user experiences. At the same time, developers also investigated using the server platform for this purpose. Initially, Common Gateway Interface (CGI) scripts were the main technology used to generate dynamic content. Although widely used, CGI scripting technology has a number of shortcomings, including platform dependence and lack of scalability. To address these limitations, Java Servlet technology was created as a portable way to provide dynamic, user-oriented content.
+</p>
+<p>
+A servlet is a Java class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model.
+</p>
+Keypoints:
+<ul>
+    <li>The javax.servlet and javax.servlet.http packages provide interfaces and classes for writing servlets. All servlets must implement the Servlet interface, which defines life-cycle methods. When implementing a generic service, you can use or extend the GenericServlet class provided with the Java Servlet API.</li>
+    <li>The HttpServlet class provides methods, such as doGet and doPost, for handling HTTP-specific services.</li>
+    <li>web.xml maps a servlet class to a url pattern by using tags:&lt;servlet-mapping/&gt;, &lt;servlet/&gt;</li>
+    <li>HttpServletRequest hold the information that was sent by the client/browser</li>
+    <li>HttpServletResponse hold the information that is going to be sent the client/browser</li>
+</ul>
