@@ -20,6 +20,7 @@ May the force be with you!
     <tr>
         <td>
             {% if scores.name != 'Name' %}
+                <img src="{{ site.baseurl }}/images/rebel.png" height="25" width="25">
                 <a href="https://github.com/{{ scores.github }}" target="_blank">{{scores.name}}</a>
             {% else %}
                 {{scores.name}}
