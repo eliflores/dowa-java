@@ -1,0 +1,9 @@
+<p>
+Using JSP's to combine business logic seems evil, even the usage of Java code within a JSP is discouraged because this cause spaghetti code. If we want to use JSP & Servlets in an MVC way we need to consider:
+</p>
+<ul>
+    <li>JSP should be used only to display information (use tags / EL to pull information)</li>
+    <li>Servlet should be used as a controller (controllers should be kept light)</li>
+    <li>Business logic should be kept in a service layer which is part of the model (remember that more often than not UI is changed but business logic is preserved)</li>
+    <li>Use components wisely, remember SOLID applies to every bit of software</li>
+</ul>

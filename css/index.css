@@ -88,6 +88,23 @@ body {
     font-weight: 500
 }
 
+.dowa-section {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+h1, .dowa-title{
+    color: #E2A300;
+}
+
+h2, h3, .dowa-subtitle {
+    color: #8a6d3b;
+}
+
+h4, .dowa-subtitle {
+    color: #88AA88;
+}
+
 @media (min-width: 992px) {
     .bs-docs-sidebar .nav>.active>ul {
         display: block

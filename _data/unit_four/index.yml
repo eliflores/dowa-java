@@ -11,3 +11,15 @@ items:
   - item:
       name: JDBC
       id: jdbc
+  - item:
+      name: JSP
+      id: jsp
+  - item:
+      name: JSTL (JSP Standard Tag Library)
+      id: jstl
+  - item:
+      name: Servlet
+      id: servlet
+  - item:
+      name: MVC with JSP & Servlets
+      id: mvc-servlet-jsp
