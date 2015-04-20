@@ -6,6 +6,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class HelloWorldServlet extends HttpServlet {
 
@@ -21,6 +24,11 @@ public class HelloWorldServlet extends HttpServlet {
 
         os.println("<h2>");
         os.println("Hello World! from a servlet");
+        os.println("</h2>");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        Date date = new Date();
+        os.println("<h2>Date: ");
+        os.println(dateFormat.format(date));
         os.println("</h2>");
 
         os.println("</body>");
