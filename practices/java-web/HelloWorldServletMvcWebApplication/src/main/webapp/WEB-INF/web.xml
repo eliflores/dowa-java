@@ -11,4 +11,12 @@
         <servlet-name>myServlet</servlet-name>
         <url-pattern>/hello-mvc-servlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>studentLoginServlet</servlet-name>
+        <servlet-class>com.dowa.java.web.StudentLoginMvcServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>studentLoginServlet</servlet-name>
+        <url-pattern>/login-mvc-servlet</url-pattern>
+    </servlet-mapping>
 </web-app>
