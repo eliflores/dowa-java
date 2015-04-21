@@ -1,4 +1,4 @@
-package com.uabc.dowa.jdbc.model;
+package com.dowa.java.web.model;
 
 public class Student {
     private int _id;
@@ -13,15 +13,15 @@ public class Student {
         return _firstName;
     }
 
-    public void setFirstName(String firstName) {
-        _firstName = firstName;
+    public void setFirstName(String _firstName) {
+        this._firstName = _firstName;
     }
 
     public String getLastName() {
         return _lastName;
     }
 
-    public void setLastName(String lastName) {
-        _lastName = lastName;
+    public void setLastName(String _lastName) {
+        this._lastName = _lastName;
     }
 }
