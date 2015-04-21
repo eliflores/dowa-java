@@ -8,3 +8,4 @@ _site
 *.ids
 *.class
 *out/*
+/practices/java-web/HelloWorldServletMvcWebApplication/.idea
