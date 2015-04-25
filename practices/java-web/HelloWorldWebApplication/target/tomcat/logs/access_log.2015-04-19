@@ -1,3 +1,0 @@
-127.0.0.1 - - [19/Apr/2015:21:11:49 -0700] "GET /index.jsp HTTP/1.1" 500 3758 http-bio-9090-exec-1 891
-127.0.0.1 - - [19/Apr/2015:21:12:46 -0700] "GET /index.jsp HTTP/1.1" 500 3754 http-bio-9090-exec-3 117
-127.0.0.1 - - [19/Apr/2015:21:12:58 -0700] "GET /hello-servlet HTTP/1.1" 200 128 http-bio-9090-exec-5 1
