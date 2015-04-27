@@ -4,7 +4,7 @@
 </p>
 Keypoints:
 <ul>
-    <li>javax.servlet.Filter. is implemented by a filter.</li>
+    <li>Should implement javax.servlet.Filter</li>
     <li>Filter must be mapped in the web.xml to be considered by the container.</li>
     <li>Filter must invoke chain#doFilter() if the request is supposed to get to the servlet, alternatively the filter can write the output directly.</li>
     <li>Some Filter usages are : statistics, compression, security, auditing..</li>

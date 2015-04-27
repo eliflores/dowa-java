@@ -26,3 +26,9 @@ items:
   - item:
       name: Filters
       id: filters
+  - item:
+      name: Sessions
+      id: session
+  - item:
+      name: Listeners
+      id: listeners
