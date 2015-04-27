@@ -1,0 +1,16 @@
+<p>
+    Http servers are stateless, this means that they don't know if there has been a previous request or not, so they need help to know if a previous request has been sent by a client.
+    A session is a conversational state between the client and the server.
+</p>
+
+<ul>
+    <li>JSESSIONID cookie is used to store the session id </li>
+    <li>URL rewriting is needed if cookies are disabled</li>
+    <li>We store the information in class javax.servlet.http.HttpSession</li>
+    <li>getSession() will create a new Session</li>
+    <li>getSession(boolean) may create a new Session</li>
+    <li>invalidate() will invalidate the session.</li>
+    <li>A timeout can be set in the web.xml</li>
+</ul>
+
+<a href="http://docs.oracle.com/cd/B14099_19/web.1012/b14017/develop.htm#i1005093" target="_blank">More on sessions</a>
