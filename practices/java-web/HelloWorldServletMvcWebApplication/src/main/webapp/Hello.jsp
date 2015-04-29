@@ -4,8 +4,10 @@
         <title></title>
     </head>
     <body>
-
-        Hi There!!<%= request.getParameter("name") %> <br/>
-        This value was set in the servlet:  <%= request.getAttribute("fakeName") %>
+        <% if(request.getAttribute("inList") == true) {%>
+            Hi There!!<%= request.getParameter("name") %>
+        <%} else{%>
+            Sorry, there was no <%= request.getParameter("name")%> in the list.
+        <%}%>
     </body>
 </html>

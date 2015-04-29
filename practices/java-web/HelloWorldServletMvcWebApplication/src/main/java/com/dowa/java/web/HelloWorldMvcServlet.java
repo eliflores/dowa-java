@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class HelloWorldMvcServlet extends HttpServlet {
 
@@ -24,18 +25,24 @@ public class HelloWorldMvcServlet extends HttpServlet {
 
         String name = req.getParameter("name");
 
-        req.setAttribute("fakeName", StringUtils.reverse(name));
-        requestDispatcher.forward(req, resp);
-       /* ArrayList names = new ArrayList();
+        //req.setAttribute("fakeName", StringUtils.reverse(name));
+        //requestDispatcher.forward(req, resp);
+        ArrayList names = new ArrayList();
         names.add("Miriam");
         names.add("Antonio");
         names.add("El Moy");
         names.add("Ivan");
+        names.get(1).equals(1);
+
+        boolean inList = false;
 
         if (names.contains(name)) {
+            inList = true;
+            req.setAttribute("inList", inList);
             requestDispatcher.forward(req, resp);
         } else{
-           //Ver como escribir en la misma pagina donde estoy
-        }*/
+            req.setAttribute("inList", inList);
+            requestDispatcher.forward(req, resp);
+        }
     }
 }
