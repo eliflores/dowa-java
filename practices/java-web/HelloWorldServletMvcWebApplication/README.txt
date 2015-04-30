@@ -15,7 +15,9 @@ localhost:9090/hello-mvc-servlet
 
 questions to ask:
 - What is the difference between attributes and parameters?
+El parametro se obtiene del request y los atributos se setean en el controlador
 - Is this an MVC way to work with servlets?
+Si, el Servlet es nuestro controlador y JSP las vistas
 
 
 your task is to:

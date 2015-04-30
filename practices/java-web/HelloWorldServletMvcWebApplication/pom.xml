@@ -17,6 +17,12 @@
     </dependency>
 
     <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-catalina</artifactId>
       <version>7.0.25</version>
@@ -42,6 +48,13 @@
       <artifactId>commons-lang3</artifactId>
       <version>3.4</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.4.187</version>
+    </dependency>
+
 
   </dependencies>
 
