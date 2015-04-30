@@ -9,6 +9,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.lang.*;
 import org.apache.commons.lang3.StringUtils;
 
 public class HelloWorldMvcServlet extends HttpServlet {
@@ -21,7 +22,6 @@ public class HelloWorldMvcServlet extends HttpServlet {
             url = "/Hello.jsp";
             setSessionData(req, session);
         }
-
         RequestDispatcher requestDispatcher = req.getRequestDispatcher(resp.encodeRedirectURL(url));
         requestDispatcher.forward(req, resp);
     }

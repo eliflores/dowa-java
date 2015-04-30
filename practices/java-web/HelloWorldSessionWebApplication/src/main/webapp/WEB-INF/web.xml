@@ -7,7 +7,7 @@
         <servlet-name>myServlet</servlet-name>
         <servlet-class>com.dowa.java.web.HelloWorldMvcServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
-    </servlet>
+    </servlet>  
 
     <servlet>
         <servlet-name>logout</servlet-name>
@@ -19,7 +19,7 @@
         <servlet-name>myServlet</servlet-name>
         <url-pattern>/hello-mvc-servlet</url-pattern>
     </servlet-mapping>
-
+    
     <servlet-mapping>
         <servlet-name>logout</servlet-name>
         <url-pattern>/logout</url-pattern>
