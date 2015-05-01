@@ -4,10 +4,17 @@
         <title></title>
     </head>
     <body>
-        <% if(request.getAttribute("inList") == true) {%>
+        <%
+        <T> insideList = request.getAttribute("inList");
+        if(insideList.equals(true)){
+        %>
             Hi There!!<%= request.getParameter("name") %>
-        <%} else{%>
+        <%
+        }else{
+        %>
             Sorry, there was no <%= request.getParameter("name")%> in the list.
-        <%}%>
+        <%
+        }
+        %>
     </body>
 </html>

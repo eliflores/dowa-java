@@ -15,6 +15,12 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <servlet>
+        <servlet-name>greetings</servlet-name>
+        <servlet-class>com.dowa.java.web.GreetingsServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>myServlet</servlet-name>
         <url-pattern>/hello-mvc-servlet</url-pattern>
@@ -23,6 +29,11 @@
     <servlet-mapping>
         <servlet-name>logout</servlet-name>
         <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>greetings</servlet-name>
+        <url-pattern>/greetings</url-pattern>
     </servlet-mapping>
 
     <session-config>

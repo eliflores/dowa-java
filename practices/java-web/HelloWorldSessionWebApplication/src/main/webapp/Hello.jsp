@@ -9,7 +9,9 @@
         This value was set in the servlet:  <%= request.getAttribute("fakeName") %>
         <br/>
         Session Data:  <%= request.getAttribute("sessionData") %>
-        <%--<a href="${pageContext.response.encodeRedirectURL('logout')}">Logout</a>--%>
-        <a href="logout">Logout</a>
+        <a href="${pageContext.request.getAttribute('greetingsURL')}">
+        pss pss! hey, click here!</a>
+        <a href="${pageContext.response.encodeRedirectURL('logout')}">Logout</a> <%--Esta parte se encarga de enviar la  --%>
+        <%--<a href="logout">Logout</a>--%>
     </body>
 </html>

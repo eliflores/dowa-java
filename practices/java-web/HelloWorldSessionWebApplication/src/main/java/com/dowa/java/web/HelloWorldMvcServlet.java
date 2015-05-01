@@ -30,6 +30,7 @@ public class HelloWorldMvcServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
         req.setAttribute("fakeName", StringUtils.reverse(name));
+        req.setAttribute("greetingsURL", resp.encodeRedirectURL("greetings?param=" + name));
 
         HttpSession session = req.getSession(false);
         if (session == null) {

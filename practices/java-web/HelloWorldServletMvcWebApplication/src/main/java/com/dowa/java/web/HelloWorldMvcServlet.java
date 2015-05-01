@@ -32,7 +32,6 @@ public class HelloWorldMvcServlet extends HttpServlet {
         names.add("Antonio");
         names.add("El Moy");
         names.add("Ivan");
-        names.get(1).equals(1);
 
         boolean inList = false;
 
