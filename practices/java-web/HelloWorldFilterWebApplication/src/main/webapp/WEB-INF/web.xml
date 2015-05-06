@@ -3,22 +3,15 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 <web-app>
     <filter>
-        <filter-name>filterOne</filter-name>
-        <filter-class>com.dowa.java.web.filters.FilterOne</filter-class>
+        <filter-name>StatisticFilter</filter-name>
+        <filter-class>com.dowa.java.web.filters.StatisticFilter</filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>filterOne</filter-name>
+        <filter-name>StatisticFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <filter>
-        <filter-name>filterTwo</filter-name>
-        <filter-class>com.dowa.java.web.filters.FilterTwo</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>filterTwo</filter-name>
-        <url-pattern>/</url-pattern>
-    </filter-mapping>
+
 
     <servlet>
         <servlet-name>myServlet</servlet-name>
