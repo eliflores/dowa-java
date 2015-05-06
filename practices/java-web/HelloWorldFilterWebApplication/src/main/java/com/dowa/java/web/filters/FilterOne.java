@@ -1,4 +1,4 @@
-package com.dowa.java.web;
+package com.dowa.java.web.filters;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -18,11 +18,12 @@ public class FilterOne implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
         throws IOException, ServletException {
         System.out.println("filter one do filter");
-
+        filterChain.doFilter(servletRequest, servletResponse);
     }
 
     @Override
     public void destroy() {
+
         System.out.println("Filter one destroy");
     }
 }

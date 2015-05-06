@@ -1,0 +1,2 @@
+127.0.0.1 - - [05/May/2015:18:17:05 -0700] "GET /hello-servlet HTTP/1.1" 200 127 http-bio-9090-exec-1 70
+127.0.0.1 - - [05/May/2015:18:17:24 -0700] "GET /index.jsp HTTP/1.1" 200 109 http-bio-9090-exec-3 955
