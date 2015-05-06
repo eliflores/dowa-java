@@ -21,7 +21,8 @@ public class HelloWorldMvcServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/Hello.jsp");
+        RequestDispatcher requestDispatcher1 = req.getRequestDispatcher("/Hello.jsp");
+        RequestDispatcher requestDispatcher2 = req.getRequestDispatcher("/Hello2.jsp");
 
         String name = req.getParameter("name");
 
@@ -38,10 +39,10 @@ public class HelloWorldMvcServlet extends HttpServlet {
         if (names.contains(name)) {
             inList = true;
             req.setAttribute("inList", inList);
-            requestDispatcher.forward(req, resp);
+            requestDispatcher1.forward(req, resp);
         } else{
             req.setAttribute("inList", inList);
-            requestDispatcher.forward(req, resp);
+            requestDispatcher2.forward(req, resp);
         }
     }
 }

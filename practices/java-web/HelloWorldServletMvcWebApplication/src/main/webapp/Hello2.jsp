@@ -4,6 +4,6 @@
         <title></title>
     </head>
     <body>
-            Hi There!!<%= request.getParameter("name") %>
+            Sorry, there was no <%= request.getParameter("name")%> in the list.
     </body>
 </html>

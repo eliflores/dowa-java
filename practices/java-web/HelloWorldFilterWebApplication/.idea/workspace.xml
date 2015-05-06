@@ -244,7 +244,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HelloWorldSpringMvcApplication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorldServletMvcWebApplication" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
