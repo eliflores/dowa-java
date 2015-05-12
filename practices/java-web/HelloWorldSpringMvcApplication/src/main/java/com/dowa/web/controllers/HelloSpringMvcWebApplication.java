@@ -13,5 +13,10 @@ public class HelloSpringMvcWebApplication {
         model.addAttribute("message", "Star Wars Rocks!");
         return "index";
     }
+    @RequestMapping(value = "/hello-spring-mvc-params/", method = RequestMethod.POST)
+    public String helloWorldName(Model model ,@RequestParam("name") String name) {
+        model.addAttribute("name", name);
+        return "name";
+    }
 }
 
