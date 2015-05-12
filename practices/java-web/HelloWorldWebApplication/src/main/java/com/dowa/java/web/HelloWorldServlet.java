@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Date;
 
 public class HelloWorldServlet extends HttpServlet {
 
@@ -22,6 +23,8 @@ public class HelloWorldServlet extends HttpServlet {
         os.println("<h2>");
         os.println("Hello World! from a servlet");
         os.println("</h2>");
+        Date dt = new Date();
+        os.println(dt.toString());
 
         os.println("</body>");
         os.println("</html>");
