@@ -1,0 +1,10 @@
+127.0.0.1 - - [14/May/2015:22:21:31 -0700] "GET /hello-mvc-servlet HTTP/1.1" 404 952 http-bio-9090-exec-1 212
+127.0.0.1 - - [14/May/2015:22:21:35 -0700] "GET / HTTP/1.1" 404 952 http-bio-9090-exec-7 6
+127.0.0.1 - - [14/May/2015:22:21:48 -0700] "GET /hello-spring-mvc/ HTTP/1.1" 200 412 http-bio-9090-exec-8 1848
+127.0.0.1 - - [14/May/2015:22:22:40 -0700] "POST /hello-spring-mvc-params HTTP/1.1" 200 610 http-bio-9090-exec-9 162
+127.0.0.1 - - [14/May/2015:22:23:00 -0700] "GET /hello-spring-mvc/ HTTP/1.1" 200 412 http-bio-9090-exec-10 11
+127.0.0.1 - - [14/May/2015:22:23:58 -0700] "GET /hello-spring-mvc/ HTTP/1.1" 200 412 http-bio-9090-exec-1 232
+127.0.0.1 - - [14/May/2015:22:24:03 -0700] "POST /hello-spring-mvc-params HTTP/1.1" 200 606 http-bio-9090-exec-4 37
+127.0.0.1 - - [14/May/2015:22:24:12 -0700] "GET /hello-spring-mvc/ HTTP/1.1" 200 412 http-bio-9090-exec-5 5
+127.0.0.1 - - [14/May/2015:22:24:15 -0700] "POST /hello-spring-mvc-params HTTP/1.1" 200 605 http-bio-9090-exec-6 19
+127.0.0.1 - - [14/May/2015:22:24:20 -0700] "GET /hello-spring-mvc/ HTTP/1.1" 200 412 http-bio-9090-exec-7 18
