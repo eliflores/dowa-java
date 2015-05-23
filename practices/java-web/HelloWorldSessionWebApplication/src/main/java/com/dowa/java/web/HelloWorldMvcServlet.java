@@ -1,5 +1,7 @@
 package com.dowa.java.web;
 
+import org.apache.commons.lang3.StringUtils;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +11,6 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import org.apache.commons.lang3.StringUtils;
 
 public class HelloWorldMvcServlet extends HttpServlet {
 
