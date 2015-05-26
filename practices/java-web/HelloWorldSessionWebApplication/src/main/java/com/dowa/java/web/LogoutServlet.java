@@ -1,5 +1,5 @@
 package com.dowa.java.web;
-
+// - web.xml is 2.4 instead of 2.3 to allow EL to be interpreted
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

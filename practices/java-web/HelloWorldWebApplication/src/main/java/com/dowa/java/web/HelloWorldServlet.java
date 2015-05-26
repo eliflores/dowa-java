@@ -7,6 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import java.util.*;
+import java.text.*;
+
+
 public class HelloWorldServlet extends HttpServlet {
 
     @Override
@@ -15,12 +19,15 @@ public class HelloWorldServlet extends HttpServlet {
         resp.setContentType("text/html");
 
         ServletOutputStream os = resp.getOutputStream();
+        Date date = new Date();
+        SimpleDateFormat ft = new SimpleDateFormat ("'Today is 'E yyyy - MM - dd 'at' hh:mm:ss");
+
 
         os.println("<html>");
         os.println("<body>");
 
         os.println("<h2>");
-        os.println("Hello World! from a servlet");
+        os.println("Hello World! from tono-servlet");
         os.println("</h2>");
 
         os.println("</body>");

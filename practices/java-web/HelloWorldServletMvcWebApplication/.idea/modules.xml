@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HelloWorldSessionWebApplication/HelloWorldSessionWebApplication.iml" filepath="$PROJECT_DIR$/../HelloWorldSessionWebApplication/HelloWorldSessionWebApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloWorldSpringMvcApplication/HelloWorldSpringMvcApplication.iml" filepath="$PROJECT_DIR$/../HelloWorldSpringMvcApplication/HelloWorldSpringMvcApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloWorldWebApplication/HelloWorldWebApplication.iml" filepath="$PROJECT_DIR$/../HelloWorldWebApplication/HelloWorldWebApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java-jdbc/java-jdbc.iml" filepath="$PROJECT_DIR$/../../java-jdbc/java-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java-misc-exercises/java-misc-exercises.iml" filepath="$PROJECT_DIR$/../../java-misc-exercises/java-misc-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloWorldFilterWebApplication/src/main/main1.iml" filepath="$PROJECT_DIR$/../HelloWorldFilterWebApplication/src/main/main1.iml" />
+    </modules>
+  </component>
+</project>

@@ -5,7 +5,7 @@
     </head>
     <body>
 
-        Hi There!!<%= request.getParameter("name") %> <br/>
-        This value was set in the servlet:  <%= request.getAttribute("fakeName") %>
+        Hi :D !!<%= request.getParameter("name") %> <br/>
+        This value was set in this servlet:  <%= request.getAttribute("fakeName") %>
     </body>
 </html>
