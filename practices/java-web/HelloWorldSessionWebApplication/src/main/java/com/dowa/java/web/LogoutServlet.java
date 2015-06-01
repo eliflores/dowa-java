@@ -15,7 +15,7 @@ public class LogoutServlet extends HttpServlet {
         HttpSession session = req.getSession(false);
         String url = "/index.jsp";
         if (session != null) {
-                session.invalidate();
+            session.invalidate();
         }
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher(url);
