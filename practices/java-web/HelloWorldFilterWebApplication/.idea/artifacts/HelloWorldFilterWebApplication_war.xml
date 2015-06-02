@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HelloWorldFilterWebApplication:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="HelloWorldFilterWebApplication-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="HelloWorldFilterWebApplication:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,3 +1,4 @@
+
 package com.dowa.java.web;
 
 import javax.servlet.RequestDispatcher;
@@ -26,6 +27,13 @@ public class HelloWorldMvcServlet extends HttpServlet {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * TODO: Read documentantion
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
@@ -43,6 +51,12 @@ public class HelloWorldMvcServlet extends HttpServlet {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * Nexuz Notes: session Data access :)
+     * TODO: Read Documentation
+     * @param req
+     * @param session
+     */
     private void setSessionData(HttpServletRequest req, HttpSession session) {
         String mySessionAttribute = (String) session.getAttribute("mySessionAttribute");
         if (StringUtils.isEmpty(mySessionAttribute)) {

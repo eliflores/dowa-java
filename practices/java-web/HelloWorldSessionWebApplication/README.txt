@@ -25,7 +25,7 @@ Observe:
 - Configured session timeout on web.xml is 1 minute
 
 Questions:
-- what happens if we always use req.getSession();?
+- what happens if we always use req.getSession();?<
 - what happens if we use implicit object session ?
 - what happens if we change the value of jsessionID manually (use browser tools)
 
