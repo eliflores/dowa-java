@@ -2,7 +2,6 @@ items:
   - item:
       name: Overview
       id: overview
-      text: We will understand concepts
       items:
         - item:
             name: Object Oriented Programming (OOP) Concepts
@@ -17,7 +16,7 @@ items:
 
   - item:
       name: Object Oriented Programming (OOP) Concepts
-      id: overview-oop
+      id: oop
       items:
         - item:
             name: Introduction
@@ -73,27 +72,5 @@ items:
             name: Serialization
             id: java-lang-serialization
         - item:
-            name: Serialization
-            id: Concurrent Programming (Threads)
-  - item:
-      name: UML Diagrams
-      id: uml
-      items:
-        - item:
-            name: Introduction
-            id: uml-intro
-        - item:
-            name: Class
-            id: uml-class
-        - item:
-            name: Object
-            id: uml-object
-        - item:
-            name: Use Case
-            id: uml-use-case
-        - item:
-            name: Sequence
-            id: uml-sequence
-        - item:
-            name: Collaboration
-            id: uml-collaboration
+            name: Concurrent Programming (Threads)
+            id: java-lang-concurrent

@@ -1,0 +1,10 @@
+items:
+  - item:
+      name: Republic Credits (Java Points)
+      id: republic-credits
+  - item:
+      name: Practices
+      id: practices
+  - item:
+      name: Home Assignments
+      id: homework

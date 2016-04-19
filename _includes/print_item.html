@@ -1,14 +1,20 @@
-<h1 id="{{items.item.id}}" class="page-header">{{items.item.name}}</h1>
+<h1 id="{{items.item.id}}" class="page-header dowa-title">{{items.item.name}}</h1>
 <p>{{items.item.text}}</p>
 
-{% capture snippet_name %}{{items.item.id}}.html{% endcapture %}
-{% capture the_snippet_content %}{% include snippet_name %}{% endcapture %}
+{% capture snippet_name %}{{folder}}/{{items.item.id}}.html{% endcapture %}
+{% capture the_snippet_content %}{% include {{snippet_name}} %}{% endcapture %}
 {% unless the_snippet_content contains "Liquid error" %}
   {{ the_snippet_content }}
 {% endunless %}
 
 {% for nested_item in items.item.items %}
-	<h2 id="{{nested_item.item.id}}">{{nested_item.item.name}}</h2>
+	<h2 id="{{nested_item.item.id}}" class="dowa-subtitle">{{nested_item.item.name}}</h2>
 	<p>{{nested_item.item.text}}</p>
+	{% capture snippet_name %}{{folder}}/{{nested_item.item.id}}.html{% endcapture %}
+	{% capture the_snippet_content %}{% include {{snippet_name}} %}{% endcapture %}
+	{% unless the_snippet_content contains "Liquid error" %}
+  		{{ the_snippet_content }}
+	{% endunless %}
+
 {% endfor %}
       

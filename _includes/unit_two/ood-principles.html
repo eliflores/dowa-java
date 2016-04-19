@@ -1,0 +1,54 @@
+Software design principles represent a set of guidelines that helps us to avoid having a bad design. According to author Robert C. Martin are 3 important characteristics of a bad design that should be avoided:
+
+<ul>
+	<li>Rigidity - It is hard to change because every change affects too many other parts of the system.</li>
+	<li>Fragility - When you make a change, unexpected parts of the system break.</li>
+	<li>Immobility - It is hard to reuse in another application because it cannot be disentangled from the current application.</li>
+</ul>
+
+A <b>design principle</b> is a basic tool or technique that can be applied to designing or writing code to make that code more
+<ul>
+	<li>maintainable</li>
+    <li>flexible</li>
+    <li>extensible</li>
+ </ul>
+
+ <h3>OO Principles</h3>
+ <ul>
+ 	<li><b>S</b> ingle Responsability Principle</li>
+ 	<li><b>O</b> pen-Closed Principle</li>
+ 	<li><b>L</b> iskov's Substitution Principle</li>
+ 	<li><b>I</b> nterface Segregation Principle</li>
+ 	<li><b>D</b> on't repeat yourself</li>
+ </ul>
+
+ <h4>Single Reponsability Principle</h4>
+Every object in your system should have single responsability and all the object's services should be focused on carrying out that single responsability.
+<i>You've implemented the SRP correctly when each of your objects has <u>only one reason to change</u>.</i>
+
+ <h4>Open-Closed Principle</h4>
+Classes should be <i>open</i> for extension, and <i>closed</i> for modification.
+This OCP is all about <i>allowing change</i>, but doing it <i>without requiring you to modify exisiting code</i>.
+You <b>close</b> clases by not allowying anyone to touch your working code.
+You <b>open</b> classes by allowing them to be subclassed, extended and reused (your classes are open for extension).
+
+ <h4>Liskov's Substitution Principle</h4>
+Subtypes must be substituable for their base types.
+The LSP is all about <u>well designed</u> inheritance. When you inherit from a base class, you must be able to <u>subtitute your subclass</u> for that base class without things going terribly <u>wrong</u>. Otherwise, you've used inheritance incorrectly!
+
+<h4>Interface Segregation Principle</h4>
+<p>Clients should not be forced to implement interfaces they do not use.</p>
+
+<p>ISP is about business logic to clients communication.</p>
+
+<p>ISP teaches us to respect our clients more than we thought necessary. Respecting their needs will make our code better and our lives as programmers easier.</p>
+
+<p>Instead of one big interface many small interfaces are preferred based on groups of methods, each one serving one submodule. It helps us have a flexible design.</p>
+
+ <h4>Don't repeat yourself</h4>
+<p>Avoid duplicate code by abstracting out things that are common and placing those things in a single location.</p>
+
+<p>DRY is about having each piece of information and behavior in your system in a <u>single sensible place</u>.</p>
+
+
+

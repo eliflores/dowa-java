@@ -7,12 +7,12 @@ layout: default
                 <div class="col-md-9" role="main">
 
                     <div class="text-center">
-                        <h2>Unit One</h2>
+                        <h2>Unit Three</h2>
                     </div>
 
-            {% for items in site.data.unit_one.index.items %}
+            {% for items in site.data.unit_three.index.items %}
                 <div class="bs-docs-section dowa-section">
-                    {% capture folder %}unit_one{% endcapture %}
+                    {% capture folder %}unit_three{% endcapture %}
                     {% capture items %}{{ items }}{% endcapture %}
                     {% include print_item.html %}
                 </div>    
