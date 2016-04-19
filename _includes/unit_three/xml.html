@@ -26,6 +26,20 @@ The XML DOM is:
 
 <i>The XML DOM is a standard for how to get, change, add, or delete XML elements.</i>
 
+<h3>SAX and DOM</h3>
+<p>SAX requires much less memory than DOM, because SAX does not construct an internal representation (tree structure) of the XML data, as a DOM does. Instead, SAX simply sends data to the application as it is read; your application can then do whatever it wants to do with the data it sees.</p>
+<p>SAX API acts like a serial I/O stream. You see the data as it streams in, but you cannot go back to an earlier position or leap ahead to a different position. SAX works well when you simply want to read data and have the application act on it.</p>
+
+<p>DOM was designed for documents (e.g. articles and books). It was intended to be language-neutral. Because it was designed for use with languages such as C and Perl, DOM does not take advantage of Java's object-oriented features.</p>
+<p>DOM is an in-memory model that makes more sense when you need to modify an XML structure ( especially when you need to modify it interactively). 
+<p>DOM provides many powerful capabilities for large-scale documents (like books and articles), but it requires a lot of complex coding.</p>
+
+<h4>Reference:</h2>
+<ul>
+	<li><a href="https://docs.oracle.com/javase/tutorial/jaxp/sax/when.html">When to Use SAX</a></li>
+	<li><a href="https://docs.oracle.com/javase/tutorial/jaxp/dom/when.html">When to use DOM</a></li>
+</ul>
+
 <h2>Java API for XML Processing (JAXP)</h2>
 <p>The Java API for XML Processing (JAXP) is for processing XML data using applications written in the Java programming language. JAXP leverages the parser standards Simple API for XML Parsing (SAX) and Document Object Model (DOM) so that you can choose to parse your data as a stream of events or to build an object representation of it. JAXP also supports the Extensible Stylesheet Language Transformations (XSLT) standard, giving you control over the presentation of the data and enabling you to convert the data to other XML documents or to other formats, such as HTML. JAXP also provides namespace support, allowing you to work with DTDs that might otherwise have naming conflicts. Finally, as of version 1.4, JAXP implements the Streaming API for XML (StAX) standard.</p>
 
@@ -41,6 +55,5 @@ The XML DOM is:
 	<li><a href="http://sax.sourceforge.net/">SAX</a></li>
 	<li><a href="http://searchsoa.techtarget.com/definition/SAX-Simple-API-for-XML">SAX API</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a></li>
-    <li><a href="http://www.w3schools.com/dom/">XML DOM</a></li>
 	<li><a href="http://docs.oracle.com/javase/tutorial/jaxp">Java API for XML Processing (JAXP)</a></li>
 </ul>
